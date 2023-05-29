@@ -1,6 +1,6 @@
 # Deployment (Dağıtım)
 Docker - Kubernetes-Heroku Notes
-
+# 1-DOCKER
 ### Monitoring 
 Hangi url ne kadar istek geldi vs vs.
 ### Docker
@@ -49,3 +49,34 @@ Container > VM
 
 # Docker Network Türleri
 ![image](https://github.com/cengarm/Deployment/assets/126611512/a0af88ba-f01e-4f3f-8332-93e867ecb4a2)
+
+# 2-KUBERNETES 
+## Kubernetes(K8S) NEDİR ? 
+Container kalabalıklığının yönetilmesini sağlıyor.
+Containerler üzerinde çalışan microservice tabanlı uygulamaların orkestrasyonunu sağlıyor.
+
+## MASTER & NODE 
+![image](https://github.com/cengarm/Deployment/assets/126611512/30adfe8b-b9a2-432f-a5ee-3f0b2e781a2c)
+
+## Master(Control Plane)
+![image](https://github.com/cengarm/Deployment/assets/126611512/6c56b0b8-319e-4684-9144-5afb87754e7d)
+
+## Node(Worker)
+![image](https://github.com/cengarm/Deployment/assets/126611512/4c57f493-8db2-446a-8209-8e98388153a4)
+
+## Pod Nedir ?
+![image](https://github.com/cengarm/Deployment/assets/126611512/c67f5333-b31a-4f05-a2c5-6532da31b988)
+
+## DEPLOYMENT Nedir ? 
+![image](https://github.com/cengarm/Deployment/assets/126611512/043e0d64-5b08-4631-83a6-3ebc68ba2efe)
+
+## SERVICE Nedir ?
+![image](https://github.com/cengarm/Deployment/assets/126611512/8c06e5b9-48f0-4a43-a4dd-e8cc769c8c7d)
+
+## Kubernetesin Çalışma Prensibleri
+![image](https://github.com/cengarm/Deployment/assets/126611512/922ee580-f007-416b-b777-e0366b5aea81)
+
+# 3- HEROKU
+Heroku, bir cloud computing altyapı sağlayıcısıdır. Peki ne demek bu? Sizin bir uygulamanız var. Bunun için gidip bir sunucu alıyorsunuz ve o sunucuyu yapılandırıp hazır hale getiriyorsunuz. Sonra dışarıdan erişilebilir oluyor uygulamanız. Tabi sonra belki sunucu trafiği fazla oluyor siz bir sunucu daha açıp bunu genişletiyorsunuz. Aynı şekilde bu sunucu üzerindeki versiyon kontrol sistemi (VCS yani Git ve SVN gibi sistemler) yapılandırmaları ıvır zıvır ne varsa sizin elinizde. Bir de bunun DB tarafı da var..
+
+İşte tüm bu süreçleri sizin için yapan arkadaşımızın adı Heroku :))) Ölçeklenebilir bir PAAS hizmeti vermektedir Heroku. Bir çok dile de desteği vardır. JavaScript, Ruby, Java, PHP, Python, GO, Scala, Clojure... Uygulamalarınızı yüklemenizi, yönetmenizi ve ölçeklendirmenizi sağlar ve bunu gerçekten iyi yapar.
